@@ -51,7 +51,8 @@ bool isPositive(int checkNum)
     }
     else
     {
-        return false;
+        cout<<"Sorry, numbers must be bigger than 0.";
+        return 0;
     }
 }
 void fillWith(vector<int> &fill, int amount)
