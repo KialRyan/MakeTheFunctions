@@ -45,14 +45,14 @@ int main()
 //function definitions
 bool isPositive(int checkNum)
 {
-    if(checkNum >= 0)
+    if(checkNum > 0)
     {
         return true;
     }
     else
     {
-        cout<<"Sorry, numbers must be bigger than 0.";
-        return 0;
+       
+        return false; 
     }
 }
 void fillWith(vector<int> &fill, int amount)
